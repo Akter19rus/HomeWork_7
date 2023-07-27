@@ -92,7 +92,7 @@ public class Main {
             if (oneFriday % 7 == 0) {
                 System.out.println("Сегодня пятница, " + oneFriday + "-е число. Необходимо подготовить отчет");
             }
-
+            //      Исправил
         }
     }
 
@@ -103,7 +103,7 @@ public class Main {
         int aHundredYearsAhead = yearNow + 100;
         for (int i = 0; i <= aHundredYearsAhead; i += 79) {
             if (i > twoHundredYearsAgo) {
-                System.out.println(i);
+                System.out.println(i);         //Исправил
             }
 
         }
