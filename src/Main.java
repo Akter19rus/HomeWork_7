@@ -88,8 +88,7 @@ public class Main {
 
     public static void task7() {
         System.out.println("Задача 7");
-        int oneFriday = 7;
-        for (; oneFriday < 31; oneFriday++) {
+        for (int oneFriday = 7; oneFriday < 31; oneFriday += 7) {
             if (oneFriday % 7 == 0) {
                 System.out.println("Сегодня пятница, " + oneFriday + "-е число. Необходимо подготовить отчет");
             }
@@ -103,7 +102,7 @@ public class Main {
         int twoHundredYearsAgo = yearNow - 200;
         int aHundredYearsAhead = yearNow + 100;
         for (int i = 0; i <= aHundredYearsAhead; i += 79) {
-            if (i > twoHundredYearsAgo && i < aHundredYearsAhead) {
+            if (i > twoHundredYearsAgo) {
                 System.out.println(i);
             }
 
